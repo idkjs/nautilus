@@ -8,9 +8,6 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "prepublish": "npm run build",
-    "run-ios": "react-native run-ios --project-path \"./example/.native/ios\"",
-    "run-android": "react-native run-android --root \"./example/.native\"",
-    "start-example": "node ./node_modules/react-native/local-cli/cli.js start --root ./example",
     "test": "exit 0"
   },
   "keywords": [
@@ -32,15 +29,13 @@
   "homepage": "https://github.com/Astrocoders/nautilus#readme",
   "devDependencies": {
     "bs-platform": "^5.0.3",
-    "bs-react-native-jsx3-compat": "^0.11.0",
     "react": "^16.3.0-alpha.1",
     "react-native": "^0.59.5",
-    "react-native-gesture-handler": "^1.0.0-alpha.41",
-    "reason-react": "https://github.com/reasonml/reason-react.git#835b90c",
+    "react-native-gesture-handler": "^1.3.0",
+    "reason-react": "latest",
     "reason-react-native": "^0.60.0"
   },
   "peerDependencies": {
-    "bs-react-native-jsx3-compat": "^0.11.0",
     "react-native-gesture-handler": "*",
     "reason-react": "*",
     "reason-react-native": "^0.60.0"

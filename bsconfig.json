@@ -5,7 +5,6 @@
   "bs-dependencies": [
     "reason-react",
     "reason-react-compat",
-    "bs-react-native-jsx3-compat",
     "reason-react-native"
   ],
   "reason": {
